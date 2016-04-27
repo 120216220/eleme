@@ -1,0 +1,28 @@
+<div class="sidebar">
+	<div class="sidebar-tabs">
+		<div class="toolbar-tabs-middle">
+			<a class="toolbar-btn icon-order" href="https://ele.me/profile2/order"  title="我的饿单"></a>
+			<div class="toolbar-separator"></div>
+			<a class="toolbar-cartbtn icon-cart toolbar-open" template="cart" ng-class="{'focus': (activeTemplate === 'cart' && isSidebarOpen)}" href="JavaScript:;">购物车</a>
+			<div class="toolbar-separator"></div>
+			<a class="toolbar-btn icon-notice toolbar-open" template="message" ng-class="{'focus': (activeTemplate === 'message' && isSidebarOpen)}" href="JavaScript:;" title="我的信息"></a>
+			<a class="toolbar-btn icon-history toolbar-open" template="history" ng-class="{'focus': (activeTemplate === 'history' && isSidebarOpen)}" href="JavaScript:" title="浏览历史"></a>
+		</div>
+		<div class="toolbar-tabs-bottom">
+			<div class="toolbar-btn icon-QR-code">
+				<div class="dropbox toolbar-tabs-dropbox">
+					<a href="http://ele.me/mobile" target="_blank">
+						<img src="image/appqc.png" alt="下载手机应用">
+						<p>下载手机应用</p>
+						<p class="icon-QR-code-bonus">即可参加分享红包活动</p>
+					</a>
+				</div>
+			</div>
+			<a class="toolbar-btn icon-service" title="在线客服" target="_blank" href="JavaScript:" style="visibility: visible;"></a>
+			<a class="toolbar-btn sidebar-btn-backtop icon-top" title="回到顶部" href="JavaScript:" ></a>
+		</div>
+	</div>
+	<div class="sidebar-content">
+		<div ng-include="activeTemplate ? ('tpls/sidebar/sidebar-' + activeTemplate + '.html') : ''"></div>
+	</div>
+</div>

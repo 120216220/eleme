@@ -1,0 +1,170 @@
+.topbar{
+	height: 60px;
+	background-color: #1e89e0;
+}
+
+.topbar-logo,
+.topbar-item,
+.topbar-nav-link{
+	float: left;
+}
+
+.topbar-logo{
+	margin-right: 30px;
+	width: 105px;
+	
+	&:before{
+		line-height:60px;
+		color:#fff;
+		font-size:32px;
+	}
+
+	> span{
+		display:block;
+		height:0;
+		overflow:hidden;
+		text-indent:-900em;
+	}
+}
+
+.topbar-item{
+	display: inline-block;
+	position:relative;
+	width:104px;	
+	color:#fff;
+	line-height:60px;
+	font-size:16px;
+	text-align:center;
+
+	&:hover{
+		background:#0c77d1;
+	}
+
+	&:active{
+		background:#006bc7;
+	}
+
+	&.focus{
+		background-color:#006bc7;
+	}
+
+	&.topbar-homepage{
+		width:112px !important;
+	}
+
+	@media screen and (min-width:1280px) {
+		width:144px;
+	}
+
+	.elemeicon-hot{
+		position:absolute;
+		right:0;
+		top:4px;
+		width:30px;
+		height:20px;
+
+		@media screen and (min-width:1280px) {
+			right:10px;
+		}
+	}
+}
+
+.topbar-nav{
+	float:right;
+	width:504px;
+	height:60px;
+	color:#d2e7f9;
+}
+
+.topbar-nav-link{
+	position:relative;
+	padding:0 10px;
+	width:106px;
+	line-height:60px;
+	color:#a5d0f3;
+	cursor:pointer;
+
+	&:hover,
+	&:active{
+		color:#fff;
+	}
+
+	&:hover{
+		.topbar-mobile-dropbox{
+			display:block;
+
+			&:before{
+				right:auto;
+				left:9px;
+				border-color:#0089dc #0089dc #fff;
+			}
+		}
+	}
+
+	.topbar-mobile-dropbox{
+		display:none;
+		top:55px;
+		left:7px;
+		padding:3px 10px;
+		width:200px;
+		line-height:40px;
+		color:#333;
+		font-size:16px;
+		font-weight:700;
+		cursor:auto;
+	}
+}
+
+.topbar-nav-icon:before,
+.topbar-profilebox-avatar{
+	vertical-align:middle;
+	display:inline-block;
+}
+
+.topbar-nav-icon{
+
+	&:before{
+		margin-right:5px;
+		font-size:22px;
+	}
+}
+
+.topbar-nav-qrcode{
+	float:left;
+	width:72px;
+	height:72px;
+}
+
+.topbar-nav-androidbtn,
+.topbar-nav-iosbtn{
+	float:right;
+	margin:0 0 11px 5px;
+	width:96px;
+	height:29px;
+	background:url(../image/appdownload.png);
+}
+
+.topbar-nav-androidbtn{
+	background-position:0 -29px;
+}
+
+.topbar-profilebox{
+	float:right;
+	color:#fff;
+	line-height:60px;
+
+	> span > a{
+		color:#fff;
+
+		&:hover{
+			text-decoration: underline;
+		}
+	}
+}
+
+.topbar-profilebox-avatar{
+	height:26px;
+	width:26px;
+	font-size:22px;
+	border-radius:50%;
+}

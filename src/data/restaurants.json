@@ -1,0 +1,861 @@
+[{
+	"id": 1,
+	"name_for_url": "mhjd-sqj",
+	"is_premium": true,
+	"imgUrl": "image/res/1.jpeg",
+	"name": "食其家（老闵行店）发送到给送饭",
+	"order_lead_time_text": 39,
+	"rating": 0.94,
+	"recent_order_num": 1825,
+	"minimum_order_amount": 30,
+	"is_free_delivery": false,
+	"delivery_fee": 7,
+	"activities": [{
+		"icon_name": "减",
+		"description": "在该商家用抵价券订餐可抵10元",
+		"style": {
+			"background":"#f07373"
+		}
+	},{
+		"icon_name": "首",
+		"description": "新用户下单立减11元",
+		"style": {
+			"background":"#70bc46"
+		}
+	},{
+		"icon_name": "票",
+		"description": "该商家支持开发票，请在下单时填写好发票抬头",
+		"style": {
+			"background": "#fff",
+			"color": "#9071CB",
+			"border":"1px solid",
+			"padding": "0"
+		}
+	}],
+	"certification": 2,
+	"promotion_info": "饿了么品牌馆承诺，您的餐品60分钟内送达。如送餐时间超过70分钟,此单赠送一张10元抵价券、超过90分钟,此单赠送两张10元抵价券！订餐须知—1:请确保您的电话畅通，以便送餐员能及时联系上您。2:美食烹饪+餐品配送需要一定的时间，为了确保您能及时用餐，希望您提前30分钟以上时间预定下单，避开高峰时期。饿了么【品牌馆咨询专线】：021-33881307 6月7号起品牌馆配送费提升为7元，会员依然免配"
+},{
+	"id": 2,
+	"name_for_url": "jiaodazhajidian",
+	"imgUrl": "image/res/2.jpeg",
+	"name": "交大炸鸡店",
+	"order_lead_time_text": 26,
+	"rating": 0.86,
+	"recent_order_num": 415,
+	"minimum_order_amount": 10,
+	"is_free_delivery": true,
+	"activities": [{
+		"icon_name": "减",
+		"description": "在该商家用抵价券订餐可抵10元",
+		"style": {
+			"background":"#f07373"
+		}
+	},{
+		"icon_name": "首",
+		"description": "新用户下单立减11元",
+		"style": {
+			"background":"#70bc46"
+		}
+	},{
+		"icon_name": "票",
+		"description": "该商家支持开发票，请在下单时填写好发票抬头",
+		"style": {
+			"background": "#fff",
+			"color": "#9071CB",
+			"border":"1px solid",
+			"padding": "0"
+		}
+	}],
+	"certification": 1,
+	"promotion_info": "请记得收藏交大炸鸡店哟！"
+},{
+	"id": 3,
+	"name_for_url": "zhenpin",
+	"imgUrl": "image/res/3.png",
+	"name": "臻品缘-salad",
+	"order_lead_time_text": 23,
+	"rating": 0.98,
+	"recent_order_num": 2488,
+	"minimum_order_amount": 12,
+	"is_free_delivery": true,
+	"activities": [{
+		"icon_name": "减",
+		"description": "在该商家用抵价券订餐可抵10元",
+		"style": {
+			"background":"#f07373"
+		}
+	},{
+		"icon_name": "首",
+		"description": "新用户下单立减11元",
+		"style": {
+			"background":"#70bc46"
+		}
+	},{
+		"icon_name": "票",
+		"description": "该商家支持开发票，请在下单时填写好发票抬头",
+		"style": {
+			"background": "#fff",
+			"color": "#9071CB",
+			"border":"1px solid",
+			"padding": "0"
+		}
+	}],
+	"certification": 1,
+	"promotion_info": "缘姐微信zhenpinyuan2014。一直以来，臻品缘以追求“至臻品质，全球精选”为理念。我们和顾客真诚沟通，分享快乐，带给顾客前所未有的个性化豪华体验。我们将继续创新，带来改变，让那些平淡无奇的水果成为历史。交大店:沧源路880弄47号；华师大店:广南路700号；奉贤大学城店:海泉路521号；松江大学城店:文汇路928弄32号；"
+},{
+	"id": 4,
+	"name_for_url": "34290736",
+	"imgUrl": "image/res/4.jpeg",
+	"name": "大学路韩国料理",
+	"order_lead_time_text": 40,
+	"rating": 0.90,
+	"recent_order_num": 2035,
+	"minimum_order_amount": 13,
+	"is_free_delivery": true,
+	"activities": [{
+		"icon_name": "减",
+		"description": "在该商家用抵价券订餐可抵10元",
+		"style": {
+			"background":"#f07373"
+		}
+	},{
+		"icon_name": "首",
+		"description": "新用户下单立减11元",
+		"style": {
+			"background":"#70bc46"
+		}
+	},{
+		"icon_name": "票",
+		"description": "该商家支持开发票，请在下单时填写好发票抬头",
+		"style": {
+			"background": "#fff",
+			"color": "#9071CB",
+			"border":"1px solid",
+			"padding": "0"
+		}
+	}],
+	"certification": 1,
+	"promotion_info": "《从9月15日至10月7号到店堂吃21：00至24：00全单八折优惠》农生院 木兰楼 文选 机动 电信群 航空航天 微电子学院 生物药学楼 华师大东海学院30元 剑川路电力学校50元起送， 五院和金平路60元以上起送，外卖员不上楼，上楼加3元服务费-单次消费满100送大瓶饮料雪碧‘可乐’芬达‘任选1瓶备注好"
+},{
+	"id": 5,
+	"name_for_url": "popu",
+	"imgUrl": "image/res/5.jpeg",
+	"name": "泡泡香香鸡.粥.便当",
+	"order_lead_time_text": 32,
+	"rating": 0.92,
+	"recent_order_num": 1840,
+	"minimum_order_amount": 10,
+	"is_free_delivery": true,
+	"activities": [{
+		"icon_name": "减",
+		"description": "在该商家用抵价券订餐可抵10元",
+		"style": {
+			"background":"#f07373"
+		}
+	},{
+		"icon_name": "首",
+		"description": "新用户下单立减11元",
+		"style": {
+			"background":"#70bc46"
+		}
+	},{
+		"icon_name": "票",
+		"description": "该商家支持开发票，请在下单时填写好发票抬头",
+		"style": {
+			"background": "#fff",
+			"color": "#9071CB",
+			"border":"1px solid",
+			"padding": "0"
+		}
+	}],
+	"certification": 2,
+	"promotion_info": "PopU泡泡营业截止时间由23:30改为22:30，敬请谅解！"
+},{
+	"id": 1,
+	"name_for_url": "mhjd-sqj",
+	"is_premium": true,
+	"imgUrl": "image/res/1.jpeg",
+	"name": "食其家（老闵行店）发送到给送饭",
+	"order_lead_time_text": 39,
+	"rating": 0.94,
+	"recent_order_num": 1825,
+	"minimum_order_amount": 30,
+	"is_free_delivery": false,
+	"delivery_fee": 7,
+	"activities": [{
+		"icon_name": "减",
+		"description": "在该商家用抵价券订餐可抵10元",
+		"style": {
+			"background":"#f07373"
+		}
+	},{
+		"icon_name": "首",
+		"description": "新用户下单立减11元",
+		"style": {
+			"background":"#70bc46"
+		}
+	},{
+		"icon_name": "票",
+		"description": "该商家支持开发票，请在下单时填写好发票抬头",
+		"style": {
+			"background": "#fff",
+			"color": "#9071CB",
+			"border":"1px solid",
+			"padding": "0"
+		}
+	}],
+	"certification": 2,
+	"promotion_info": "饿了么品牌馆承诺，您的餐品60分钟内送达。如送餐时间超过70分钟,此单赠送一张10元抵价券、超过90分钟,此单赠送两张10元抵价券！订餐须知—1:请确保您的电话畅通，以便送餐员能及时联系上您。2:美食烹饪+餐品配送需要一定的时间，为了确保您能及时用餐，希望您提前30分钟以上时间预定下单，避开高峰时期。饿了么【品牌馆咨询专线】：021-33881307 6月7号起品牌馆配送费提升为7元，会员依然免配"
+},{
+	"id": 2,
+	"name_for_url": "jiaodazhajidian",
+	"imgUrl": "image/res/2.jpeg",
+	"name": "交大炸鸡店",
+	"order_lead_time_text": 26,
+	"rating": 0.86,
+	"recent_order_num": 415,
+	"minimum_order_amount": 10,
+	"is_free_delivery": true,
+	"activities": [{
+		"icon_name": "减",
+		"description": "在该商家用抵价券订餐可抵10元",
+		"style": {
+			"background":"#f07373"
+		}
+	},{
+		"icon_name": "首",
+		"description": "新用户下单立减11元",
+		"style": {
+			"background":"#70bc46"
+		}
+	},{
+		"icon_name": "票",
+		"description": "该商家支持开发票，请在下单时填写好发票抬头",
+		"style": {
+			"background": "#fff",
+			"color": "#9071CB",
+			"border":"1px solid",
+			"padding": "0"
+		}
+	}],
+	"certification": 1,
+	"promotion_info": "请记得收藏交大炸鸡店哟！"
+},{
+	"id": 3,
+	"name_for_url": "zhenpin",
+	"imgUrl": "image/res/3.png",
+	"name": "臻品缘-salad",
+	"order_lead_time_text": 23,
+	"rating": 0.98,
+	"recent_order_num": 2488,
+	"minimum_order_amount": 12,
+	"is_free_delivery": true,
+	"activities": [{
+		"icon_name": "减",
+		"description": "在该商家用抵价券订餐可抵10元",
+		"style": {
+			"background":"#f07373"
+		}
+	},{
+		"icon_name": "首",
+		"description": "新用户下单立减11元",
+		"style": {
+			"background":"#70bc46"
+		}
+	},{
+		"icon_name": "票",
+		"description": "该商家支持开发票，请在下单时填写好发票抬头",
+		"style": {
+			"background": "#fff",
+			"color": "#9071CB",
+			"border":"1px solid",
+			"padding": "0"
+		}
+	}],
+	"certification": 1,
+	"promotion_info": "缘姐微信zhenpinyuan2014。一直以来，臻品缘以追求“至臻品质，全球精选”为理念。我们和顾客真诚沟通，分享快乐，带给顾客前所未有的个性化豪华体验。我们将继续创新，带来改变，让那些平淡无奇的水果成为历史。交大店:沧源路880弄47号；华师大店:广南路700号；奉贤大学城店:海泉路521号；松江大学城店:文汇路928弄32号；"
+},{
+	"id": 4,
+	"name_for_url": "34290736",
+	"imgUrl": "image/res/4.jpeg",
+	"name": "大学路韩国料理",
+	"order_lead_time_text": 40,
+	"rating": 0.90,
+	"recent_order_num": 2035,
+	"minimum_order_amount": 13,
+	"is_free_delivery": true,
+	"activities": [{
+		"icon_name": "减",
+		"description": "在该商家用抵价券订餐可抵10元",
+		"style": {
+			"background":"#f07373"
+		}
+	},{
+		"icon_name": "首",
+		"description": "新用户下单立减11元",
+		"style": {
+			"background":"#70bc46"
+		}
+	},{
+		"icon_name": "票",
+		"description": "该商家支持开发票，请在下单时填写好发票抬头",
+		"style": {
+			"background": "#fff",
+			"color": "#9071CB",
+			"border":"1px solid",
+			"padding": "0"
+		}
+	}],
+	"certification": 1,
+	"promotion_info": "《从9月15日至10月7号到店堂吃21：00至24：00全单八折优惠》农生院 木兰楼 文选 机动 电信群 航空航天 微电子学院 生物药学楼 华师大东海学院30元 剑川路电力学校50元起送， 五院和金平路60元以上起送，外卖员不上楼，上楼加3元服务费-单次消费满100送大瓶饮料雪碧‘可乐’芬达‘任选1瓶备注好"
+},{
+	"id": 5,
+	"name_for_url": "popu",
+	"imgUrl": "image/res/5.jpeg",
+	"name": "泡泡香香鸡.粥.便当",
+	"order_lead_time_text": 32,
+	"rating": 0.92,
+	"recent_order_num": 1840,
+	"minimum_order_amount": 10,
+	"is_free_delivery": true,
+	"activities": [{
+		"icon_name": "减",
+		"description": "在该商家用抵价券订餐可抵10元",
+		"style": {
+			"background":"#f07373"
+		}
+	},{
+		"icon_name": "首",
+		"description": "新用户下单立减11元",
+		"style": {
+			"background":"#70bc46"
+		}
+	},{
+		"icon_name": "票",
+		"description": "该商家支持开发票，请在下单时填写好发票抬头",
+		"style": {
+			"background": "#fff",
+			"color": "#9071CB",
+			"border":"1px solid",
+			"padding": "0"
+		}
+	}],
+	"certification": 2,
+	"promotion_info": "PopU泡泡营业截止时间由23:30改为22:30，敬请谅解！"
+},{
+	"id": 1,
+	"name_for_url": "mhjd-sqj",
+	"is_premium": true,
+	"imgUrl": "image/res/1.jpeg",
+	"name": "食其家（老闵行店）发送到给送饭",
+	"order_lead_time_text": 39,
+	"rating": 0.94,
+	"recent_order_num": 1825,
+	"minimum_order_amount": 30,
+	"is_free_delivery": false,
+	"delivery_fee": 7,
+	"activities": [{
+		"icon_name": "减",
+		"description": "在该商家用抵价券订餐可抵10元",
+		"style": {
+			"background":"#f07373"
+		}
+	},{
+		"icon_name": "首",
+		"description": "新用户下单立减11元",
+		"style": {
+			"background":"#70bc46"
+		}
+	},{
+		"icon_name": "票",
+		"description": "该商家支持开发票，请在下单时填写好发票抬头",
+		"style": {
+			"background": "#fff",
+			"color": "#9071CB",
+			"border":"1px solid",
+			"padding": "0"
+		}
+	}],
+	"certification": 2,
+	"promotion_info": "饿了么品牌馆承诺，您的餐品60分钟内送达。如送餐时间超过70分钟,此单赠送一张10元抵价券、超过90分钟,此单赠送两张10元抵价券！订餐须知—1:请确保您的电话畅通，以便送餐员能及时联系上您。2:美食烹饪+餐品配送需要一定的时间，为了确保您能及时用餐，希望您提前30分钟以上时间预定下单，避开高峰时期。饿了么【品牌馆咨询专线】：021-33881307 6月7号起品牌馆配送费提升为7元，会员依然免配"
+},{
+	"id": 2,
+	"name_for_url": "jiaodazhajidian",
+	"imgUrl": "image/res/2.jpeg",
+	"name": "交大炸鸡店",
+	"order_lead_time_text": 26,
+	"rating": 0.86,
+	"recent_order_num": 415,
+	"minimum_order_amount": 10,
+	"is_free_delivery": true,
+	"activities": [{
+		"icon_name": "减",
+		"description": "在该商家用抵价券订餐可抵10元",
+		"style": {
+			"background":"#f07373"
+		}
+	},{
+		"icon_name": "首",
+		"description": "新用户下单立减11元",
+		"style": {
+			"background":"#70bc46"
+		}
+	},{
+		"icon_name": "票",
+		"description": "该商家支持开发票，请在下单时填写好发票抬头",
+		"style": {
+			"background": "#fff",
+			"color": "#9071CB",
+			"border":"1px solid",
+			"padding": "0"
+		}
+	}],
+	"certification": 1,
+	"promotion_info": "请记得收藏交大炸鸡店哟！"
+},{
+	"id": 3,
+	"name_for_url": "zhenpin",
+	"imgUrl": "image/res/3.png",
+	"name": "臻品缘-salad",
+	"order_lead_time_text": 23,
+	"rating": 0.98,
+	"recent_order_num": 2488,
+	"minimum_order_amount": 12,
+	"is_free_delivery": true,
+	"activities": [{
+		"icon_name": "减",
+		"description": "在该商家用抵价券订餐可抵10元",
+		"style": {
+			"background":"#f07373"
+		}
+	},{
+		"icon_name": "首",
+		"description": "新用户下单立减11元",
+		"style": {
+			"background":"#70bc46"
+		}
+	},{
+		"icon_name": "票",
+		"description": "该商家支持开发票，请在下单时填写好发票抬头",
+		"style": {
+			"background": "#fff",
+			"color": "#9071CB",
+			"border":"1px solid",
+			"padding": "0"
+		}
+	}],
+	"certification": 1,
+	"promotion_info": "缘姐微信zhenpinyuan2014。一直以来，臻品缘以追求“至臻品质，全球精选”为理念。我们和顾客真诚沟通，分享快乐，带给顾客前所未有的个性化豪华体验。我们将继续创新，带来改变，让那些平淡无奇的水果成为历史。交大店:沧源路880弄47号；华师大店:广南路700号；奉贤大学城店:海泉路521号；松江大学城店:文汇路928弄32号；"
+},{
+	"id": 4,
+	"name_for_url": "34290736",
+	"imgUrl": "image/res/4.jpeg",
+	"name": "大学路韩国料理",
+	"order_lead_time_text": 40,
+	"rating": 0.90,
+	"recent_order_num": 2035,
+	"minimum_order_amount": 13,
+	"is_free_delivery": true,
+	"activities": [{
+		"icon_name": "减",
+		"description": "在该商家用抵价券订餐可抵10元",
+		"style": {
+			"background":"#f07373"
+		}
+	},{
+		"icon_name": "首",
+		"description": "新用户下单立减11元",
+		"style": {
+			"background":"#70bc46"
+		}
+	},{
+		"icon_name": "票",
+		"description": "该商家支持开发票，请在下单时填写好发票抬头",
+		"style": {
+			"background": "#fff",
+			"color": "#9071CB",
+			"border":"1px solid",
+			"padding": "0"
+		}
+	}],
+	"certification": 1,
+	"promotion_info": "《从9月15日至10月7号到店堂吃21：00至24：00全单八折优惠》农生院 木兰楼 文选 机动 电信群 航空航天 微电子学院 生物药学楼 华师大东海学院30元 剑川路电力学校50元起送， 五院和金平路60元以上起送，外卖员不上楼，上楼加3元服务费-单次消费满100送大瓶饮料雪碧‘可乐’芬达‘任选1瓶备注好"
+},{
+	"id": 5,
+	"name_for_url": "popu",
+	"imgUrl": "image/res/5.jpeg",
+	"name": "泡泡香香鸡.粥.便当",
+	"order_lead_time_text": 32,
+	"rating": 0.92,
+	"recent_order_num": 1840,
+	"minimum_order_amount": 10,
+	"is_free_delivery": true,
+	"activities": [{
+		"icon_name": "减",
+		"description": "在该商家用抵价券订餐可抵10元",
+		"style": {
+			"background":"#f07373"
+		}
+	},{
+		"icon_name": "首",
+		"description": "新用户下单立减11元",
+		"style": {
+			"background":"#70bc46"
+		}
+	},{
+		"icon_name": "票",
+		"description": "该商家支持开发票，请在下单时填写好发票抬头",
+		"style": {
+			"background": "#fff",
+			"color": "#9071CB",
+			"border":"1px solid",
+			"padding": "0"
+		}
+	}],
+	"certification": 2,
+	"promotion_info": "PopU泡泡营业截止时间由23:30改为22:30，敬请谅解！"
+},{
+	"id": 1,
+	"name_for_url": "mhjd-sqj",
+	"is_premium": true,
+	"imgUrl": "image/res/1.jpeg",
+	"name": "食其家（老闵行店）发送到给送饭",
+	"order_lead_time_text": 39,
+	"rating": 0.94,
+	"recent_order_num": 1825,
+	"minimum_order_amount": 30,
+	"is_free_delivery": false,
+	"delivery_fee": 7,
+	"activities": [{
+		"icon_name": "减",
+		"description": "在该商家用抵价券订餐可抵10元",
+		"style": {
+			"background":"#f07373"
+		}
+	},{
+		"icon_name": "首",
+		"description": "新用户下单立减11元",
+		"style": {
+			"background":"#70bc46"
+		}
+	},{
+		"icon_name": "票",
+		"description": "该商家支持开发票，请在下单时填写好发票抬头",
+		"style": {
+			"background": "#fff",
+			"color": "#9071CB",
+			"border":"1px solid",
+			"padding": "0"
+		}
+	}],
+	"certification": 2,
+	"promotion_info": "饿了么品牌馆承诺，您的餐品60分钟内送达。如送餐时间超过70分钟,此单赠送一张10元抵价券、超过90分钟,此单赠送两张10元抵价券！订餐须知—1:请确保您的电话畅通，以便送餐员能及时联系上您。2:美食烹饪+餐品配送需要一定的时间，为了确保您能及时用餐，希望您提前30分钟以上时间预定下单，避开高峰时期。饿了么【品牌馆咨询专线】：021-33881307 6月7号起品牌馆配送费提升为7元，会员依然免配"
+},{
+	"id": 2,
+	"name_for_url": "jiaodazhajidian",
+	"imgUrl": "image/res/2.jpeg",
+	"name": "交大炸鸡店",
+	"order_lead_time_text": 26,
+	"rating": 0.86,
+	"recent_order_num": 415,
+	"minimum_order_amount": 10,
+	"is_free_delivery": true,
+	"activities": [{
+		"icon_name": "减",
+		"description": "在该商家用抵价券订餐可抵10元",
+		"style": {
+			"background":"#f07373"
+		}
+	},{
+		"icon_name": "首",
+		"description": "新用户下单立减11元",
+		"style": {
+			"background":"#70bc46"
+		}
+	},{
+		"icon_name": "票",
+		"description": "该商家支持开发票，请在下单时填写好发票抬头",
+		"style": {
+			"background": "#fff",
+			"color": "#9071CB",
+			"border":"1px solid",
+			"padding": "0"
+		}
+	}],
+	"certification": 1,
+	"promotion_info": "请记得收藏交大炸鸡店哟！"
+},{
+	"id": 3,
+	"name_for_url": "zhenpin",
+	"imgUrl": "image/res/3.png",
+	"name": "臻品缘-salad",
+	"order_lead_time_text": 23,
+	"rating": 0.98,
+	"recent_order_num": 2488,
+	"minimum_order_amount": 12,
+	"is_free_delivery": true,
+	"activities": [{
+		"icon_name": "减",
+		"description": "在该商家用抵价券订餐可抵10元",
+		"style": {
+			"background":"#f07373"
+		}
+	},{
+		"icon_name": "首",
+		"description": "新用户下单立减11元",
+		"style": {
+			"background":"#70bc46"
+		}
+	},{
+		"icon_name": "票",
+		"description": "该商家支持开发票，请在下单时填写好发票抬头",
+		"style": {
+			"background": "#fff",
+			"color": "#9071CB",
+			"border":"1px solid",
+			"padding": "0"
+		}
+	}],
+	"certification": 1,
+	"promotion_info": "缘姐微信zhenpinyuan2014。一直以来，臻品缘以追求“至臻品质，全球精选”为理念。我们和顾客真诚沟通，分享快乐，带给顾客前所未有的个性化豪华体验。我们将继续创新，带来改变，让那些平淡无奇的水果成为历史。交大店:沧源路880弄47号；华师大店:广南路700号；奉贤大学城店:海泉路521号；松江大学城店:文汇路928弄32号；"
+},{
+	"id": 4,
+	"name_for_url": "34290736",
+	"imgUrl": "image/res/4.jpeg",
+	"name": "大学路韩国料理",
+	"order_lead_time_text": 40,
+	"rating": 0.90,
+	"recent_order_num": 2035,
+	"minimum_order_amount": 13,
+	"is_free_delivery": true,
+	"activities": [{
+		"icon_name": "减",
+		"description": "在该商家用抵价券订餐可抵10元",
+		"style": {
+			"background":"#f07373"
+		}
+	},{
+		"icon_name": "首",
+		"description": "新用户下单立减11元",
+		"style": {
+			"background":"#70bc46"
+		}
+	},{
+		"icon_name": "票",
+		"description": "该商家支持开发票，请在下单时填写好发票抬头",
+		"style": {
+			"background": "#fff",
+			"color": "#9071CB",
+			"border":"1px solid",
+			"padding": "0"
+		}
+	}],
+	"certification": 1,
+	"promotion_info": "《从9月15日至10月7号到店堂吃21：00至24：00全单八折优惠》农生院 木兰楼 文选 机动 电信群 航空航天 微电子学院 生物药学楼 华师大东海学院30元 剑川路电力学校50元起送， 五院和金平路60元以上起送，外卖员不上楼，上楼加3元服务费-单次消费满100送大瓶饮料雪碧‘可乐’芬达‘任选1瓶备注好"
+},{
+	"id": 5,
+	"name_for_url": "popu",
+	"imgUrl": "image/res/5.jpeg",
+	"name": "泡泡香香鸡.粥.便当",
+	"order_lead_time_text": 32,
+	"rating": 0.92,
+	"recent_order_num": 1840,
+	"minimum_order_amount": 10,
+	"is_free_delivery": true,
+	"activities": [{
+		"icon_name": "减",
+		"description": "在该商家用抵价券订餐可抵10元",
+		"style": {
+			"background":"#f07373"
+		}
+	},{
+		"icon_name": "首",
+		"description": "新用户下单立减11元",
+		"style": {
+			"background":"#70bc46"
+		}
+	},{
+		"icon_name": "票",
+		"description": "该商家支持开发票，请在下单时填写好发票抬头",
+		"style": {
+			"background": "#fff",
+			"color": "#9071CB",
+			"border":"1px solid",
+			"padding": "0"
+		}
+	}],
+	"certification": 2,
+	"promotion_info": "PopU泡泡营业截止时间由23:30改为22:30，敬请谅解！"
+},{
+	"id": 1,
+	"name_for_url": "mhjd-sqj",
+	"is_premium": true,
+	"imgUrl": "image/res/1.jpeg",
+	"name": "食其家（老闵行店）发送到给送饭",
+	"order_lead_time_text": 39,
+	"rating": 0.94,
+	"recent_order_num": 1825,
+	"minimum_order_amount": 30,
+	"is_free_delivery": false,
+	"delivery_fee": 7,
+	"activities": [{
+		"icon_name": "减",
+		"description": "在该商家用抵价券订餐可抵10元",
+		"style": {
+			"background":"#f07373"
+		}
+	},{
+		"icon_name": "首",
+		"description": "新用户下单立减11元",
+		"style": {
+			"background":"#70bc46"
+		}
+	},{
+		"icon_name": "票",
+		"description": "该商家支持开发票，请在下单时填写好发票抬头",
+		"style": {
+			"background": "#fff",
+			"color": "#9071CB",
+			"border":"1px solid",
+			"padding": "0"
+		}
+	}],
+	"certification": 2,
+	"promotion_info": "饿了么品牌馆承诺，您的餐品60分钟内送达。如送餐时间超过70分钟,此单赠送一张10元抵价券、超过90分钟,此单赠送两张10元抵价券！订餐须知—1:请确保您的电话畅通，以便送餐员能及时联系上您。2:美食烹饪+餐品配送需要一定的时间，为了确保您能及时用餐，希望您提前30分钟以上时间预定下单，避开高峰时期。饿了么【品牌馆咨询专线】：021-33881307 6月7号起品牌馆配送费提升为7元，会员依然免配"
+},{
+	"id": 2,
+	"name_for_url": "jiaodazhajidian",
+	"imgUrl": "image/res/2.jpeg",
+	"name": "交大炸鸡店",
+	"order_lead_time_text": 26,
+	"rating": 0.86,
+	"recent_order_num": 415,
+	"minimum_order_amount": 10,
+	"is_free_delivery": true,
+	"activities": [{
+		"icon_name": "减",
+		"description": "在该商家用抵价券订餐可抵10元",
+		"style": {
+			"background":"#f07373"
+		}
+	},{
+		"icon_name": "首",
+		"description": "新用户下单立减11元",
+		"style": {
+			"background":"#70bc46"
+		}
+	},{
+		"icon_name": "票",
+		"description": "该商家支持开发票，请在下单时填写好发票抬头",
+		"style": {
+			"background": "#fff",
+			"color": "#9071CB",
+			"border":"1px solid",
+			"padding": "0"
+		}
+	}],
+	"certification": 1,
+	"promotion_info": "请记得收藏交大炸鸡店哟！"
+},{
+	"id": 3,
+	"name_for_url": "zhenpin",
+	"imgUrl": "image/res/3.png",
+	"name": "臻品缘-salad",
+	"order_lead_time_text": 23,
+	"rating": 0.98,
+	"recent_order_num": 2488,
+	"minimum_order_amount": 12,
+	"is_free_delivery": true,
+	"activities": [{
+		"icon_name": "减",
+		"description": "在该商家用抵价券订餐可抵10元",
+		"style": {
+			"background":"#f07373"
+		}
+	},{
+		"icon_name": "首",
+		"description": "新用户下单立减11元",
+		"style": {
+			"background":"#70bc46"
+		}
+	},{
+		"icon_name": "票",
+		"description": "该商家支持开发票，请在下单时填写好发票抬头",
+		"style": {
+			"background": "#fff",
+			"color": "#9071CB",
+			"border":"1px solid",
+			"padding": "0"
+		}
+	}],
+	"certification": 1,
+	"promotion_info": "缘姐微信zhenpinyuan2014。一直以来，臻品缘以追求“至臻品质，全球精选”为理念。我们和顾客真诚沟通，分享快乐，带给顾客前所未有的个性化豪华体验。我们将继续创新，带来改变，让那些平淡无奇的水果成为历史。交大店:沧源路880弄47号；华师大店:广南路700号；奉贤大学城店:海泉路521号；松江大学城店:文汇路928弄32号；"
+},{
+	"id": 4,
+	"name_for_url": "34290736",
+	"imgUrl": "image/res/4.jpeg",
+	"name": "大学路韩国料理",
+	"order_lead_time_text": 40,
+	"rating": 0.90,
+	"recent_order_num": 2035,
+	"minimum_order_amount": 13,
+	"is_free_delivery": true,
+	"activities": [{
+		"icon_name": "减",
+		"description": "在该商家用抵价券订餐可抵10元",
+		"style": {
+			"background":"#f07373"
+		}
+	},{
+		"icon_name": "首",
+		"description": "新用户下单立减11元",
+		"style": {
+			"background":"#70bc46"
+		}
+	},{
+		"icon_name": "票",
+		"description": "该商家支持开发票，请在下单时填写好发票抬头",
+		"style": {
+			"background": "#fff",
+			"color": "#9071CB",
+			"border":"1px solid",
+			"padding": "0"
+		}
+	}],
+	"certification": 1,
+	"promotion_info": "《从9月15日至10月7号到店堂吃21：00至24：00全单八折优惠》农生院 木兰楼 文选 机动 电信群 航空航天 微电子学院 生物药学楼 华师大东海学院30元 剑川路电力学校50元起送， 五院和金平路60元以上起送，外卖员不上楼，上楼加3元服务费-单次消费满100送大瓶饮料雪碧‘可乐’芬达‘任选1瓶备注好"
+},{
+	"id": 5,
+	"name_for_url": "popu",
+	"imgUrl": "image/res/5.jpeg",
+	"name": "泡泡香香鸡.粥.便当",
+	"order_lead_time_text": 32,
+	"rating": 0.92,
+	"recent_order_num": 1840,
+	"minimum_order_amount": 10,
+	"is_free_delivery": true,
+	"activities": [{
+		"icon_name": "减",
+		"description": "在该商家用抵价券订餐可抵10元",
+		"style": {
+			"background":"#f07373"
+		}
+	},{
+		"icon_name": "首",
+		"description": "新用户下单立减11元",
+		"style": {
+			"background":"#70bc46"
+		}
+	},{
+		"icon_name": "票",
+		"description": "该商家支持开发票，请在下单时填写好发票抬头",
+		"style": {
+			"background": "#fff",
+			"color": "#9071CB",
+			"border":"1px solid",
+			"padding": "0"
+		}
+	}],
+	"certification": 2,
+	"promotion_info": "PopU泡泡营业截止时间由23:30改为22:30，敬请谅解！"
+}]

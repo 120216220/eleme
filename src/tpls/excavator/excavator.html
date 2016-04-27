@@ -1,0 +1,47 @@
+<div class="excavator">
+	<div class="excavator-filter">
+		<span class="excavator-filter-name">商家分类:</span>
+		<a href="javascript:;" class="excavator-filter-item" ng-repeat="category in rstCategories" ng-class="{'focus': clickedCategory === category.id && (!clickedCategory || clickedCategory < 0), 'active': activeCategory === category.id, 'premium': category.id === -10001}" ng-bind="category.name" ng-click="changeCategory(category)"></a>
+		<div ng-show="subCategories" class="excavator-filter-subbox">
+			<a href="javascript:;" class="excavator-filter-item" ng-repeat="subitem in subCategories" ng-class="{'focus': clickedCategory === subitem.id}" ng-bind="subitem.name" ng-click="changeCategory(subitem)"></a>
+		</div>
+	</div>
+	<div class="excavator-bgbar clearfix">
+		<div class="place-search" role="search">
+			<a class="place-search-btn icon-search" title="搜索商家或美食"></a>
+			<label for="globalsearch">搜索商家或美食</label>
+			<input id="globalsearch" class="place-search-input" placeholder="搜索商家,美食...">
+		</div>
+		<div class="excavator-sort">
+			<a href="JavaScript:" class="excavator-sort-item" ng-class="{'focus': !rstStream.orderBy}" ng-click="changeOrder()">默认排序</a>
+			<a href="JavaScript:" class="excavator-sort-item" ng-class="{'focus': rstStream.orderBy === '-recent_order_num'}" ng-click="changeOrder('-recent_order_num')">销量</a>
+			<a href="JavaScript:" class="excavator-sort-item" ng-class="{'focus': rstStream.orderBy === '-rating'}" ng-click="changeOrder('-rating')">评价</a>
+			<div class="excavator-sort-item" ng-class="{'focus': otherOrder}">
+				<a href="JavaScript:" ng-class="{'focus': otherOrder}">
+					<span ng-bind="otherOrder || '其他排序'"></span>
+					<i class="icon-arrow-down"></i>
+					<i class="icon-arrow-up"></i>
+				</a>
+				<div class="excavator-sort-dropdown">
+					<a href="JavaScript:" ng-class="{'focus': rstStream.orderBy === 'order_lead_time'}" ng-click="changeOrder('order_lead_time')">配送速度</a>
+					<a href="JavaScript:" ng-class="{'focus': rstStream.orderBy === 'minimum_order_amount'}" ng-click="changeOrder('minimum_order_amount')">起送金额</a>
+					<a href="JavaScript:" ng-class="{'focus': rstStream.orderBy === 'distance'}" ng-click="changeOrder('distance')">距离最近</a>
+				</div>
+			</div>
+			<div class="excavator-sort-item">
+				<a href="JavaScript:" ng-class="{'focus': option.mimOrder}">
+					<span ng-class="{'focus': option.mimOrder}" ng-bind="option.mimOrder ? '起送价格: ' + option.mimOrder + '元' : '起送价格: 不限'">起送价格: 不限</span>
+					<i class="icon-arrow-down"></i>
+					<i class="icon-arrow-up"></i>
+				</a>
+				<div class="excavator-sort-dropdown wide">
+					<a href="JavaScript:" ng-class="{'focus': !option.mimOrder}" ng-click="option.mimOrder = ''">不限</a>
+					<a href="javascript:" ng-repeat="i in [15, 20, 30, 40]" ng-class="{'focus': option.mimOrder === i}" ng-click="option.mimOrder = i" ng-bind="i + '元以下'"></a>
+				</div>
+			</div>
+		</div>
+		<div class="excavator-option">
+			<label class="excavator-option-item"><input ng-model="option.new" type="checkbox">新开商家</label><label class="excavator-option-item"><input ng-model="option.freeDeliver" type="checkbox">免配送费</label><label class="excavator-option-item"><input ng-model="option.eps" type="checkbox">饿配送</label><label class="excavator-option-item"><input ng-model="option.receipt" type="checkbox">可开发票</label><label class="excavator-option-item"><input ng-model="option.payOnline" type="checkbox">在线支付</label>
+		</div>
+	</div>
+</div>

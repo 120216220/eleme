@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="eleme">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="renderer" content="webkit">
+	<title>饿了么</title>
+	<link rel="icon" href="image/favicon-16x16.png" type="image/png" sizes="16x16">
+	<link rel="icon" href="image/favicon-32x32.png" type="image/png" sizes="32x32">
+	<link rel="icon" href="image/favicon.png" type="image/png" sizes="96x96">
+	<link rel="stylesheet" href="../dest/css/main.css">
+	<script src="framework/angular/angular.min.js"></script>
+	<script src="framework/jquery-1.12.3.js"></script>
+	
+	<script src="framework/angular/angular-route.min.js"></script>
+	<script src="framework/angular/angular-resource.min.js"></script>
+	<script src="../dest/js/main.min.js"></script>
+</head>
+<body>
+	<header class="topbar" role="navigation" >
+		<div class="container clearfix">
+			<h1>
+				<a href="/" class="topbar-logo icon-logo">
+					<span>饿了么</span>
+				</a>
+			</h1>
+			<a href="#" class="topbar-item topbar-homepage" ng-class="{'focus': locationpath[0] === 'index'}">首页</a>
+			<a href="#" class="topbar-item" ng-class="{'focus': locationpath[0] === 'premium'}">品牌商家<i class="elemeicon elemeicon-hot" ></i></a>
+			<a href="#" class="topbar-item" ng-class="{'focus': locationpath[0] === 'order'}">我的订单</a>
+			<nav class="topbar-nav">
+				<a href="#" class="topbar-nav-link" ng-class="{'focus': locationpath[0] === 'gift'}"><i class="topbar-nav-icon icon-gift"></i>积分商城</a>
+				<a href="#" class="topbar-nav-link" target="_blank"><i class="topbar-nav-icon icon-service"></i>服务中心</a>
+				<div href="#" class="topbar-nav-link"><i class="topbar-nav-icon icon-mobile"></i>手机应用<div class="dropbox topbar-mobile-dropbox">
+						<span>扫一扫, 手机订餐更方便</span>
+						<img src="image/appqc.png" alt="扫一扫下载饿了么手机 App" class="topbar-nav-qrcode">
+						<a class="topbar-nav-iosbtn" target="_blank" title="饿了么 iOS App" href="http://m.ele.me/download/ios/eleme"></a>
+						<a class="topbar-nav-androidbtn" target="_blank" title="饿了么 iOS Android" href="http://m.ele.me/download/android/eleme"></a>
+					</div>
+				</div>
+				<div class="topbar-profilebox">
+					<i class="topbar-profilebox-avatar icon-profile"></i>
+					<span>
+						<a href="https://account.ele.me/login" target="_blank">登录</a>/<a href="https://account.ele.me/register" target="_blank">注册</a>
+					</span>
+				</div>
+			</nav>
+		</div>
+	</header>
+	<sidebar></sidebar>
+
+	<div ng-view class="container" role="main"></div>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<a class="rstblock" href="#" target="_blank">
+	<div class="rstblock-logo">
+		<img width="70" height="70" class="rstblock-logo-icon" ng-src="{{restaurant.imgUrl}}" alt="{{restaurant.name}}">
+		<span ng-if="restaurant.order_lead_time_text" ng-bind="restaurant.order_lead_time_text + ' 分钟'" ></span>
+		<div ng-if="restaurant.is_premium" class="elemeicon elemeicon-premiumsign rstblock-logo-premiumsign"></div>
+		<img ng-if="restaurant.certification === 1" class="rstblock-logo-passicon" src="image/passIcon_01.png" alt="通过个人认证">
+		<img ng-if="restaurant.certification === 2" class="rstblock-logo-passicon" src="image/passIcon_02.png" alt="通过营业资质认证">
+	</div>
+	<div class="rstblock-content">
+		<div class="rstblock-title" ng-bind="restaurant.name"></div>
+		<div class="rstblock-starrating icon-star">
+			<span class="icon-star" ng-style="{ width: (restaurant.rating * 100) + '%' }"></span>
+		</div>
+		<span class="rstblock-monthsales" ng-bind="'月售' + restaurant.recent_order_num + '单'"></span>
+		<div class="rstblock-cost" ng-bind="restaurant.minimum_order_amount + '元起送 / '+ (restaurant.delivery_fee ? ('配送费' + restaurant.delivery_fee + '元') : '免费配送')"></div>
+		<div class="rstblock-activity">
+			<i ng-repeat="activity in restaurant.activities" ng-bind="activity.icon_name" ng-style="activity.style"></i>
+		</div>
+	</div>
+</a>

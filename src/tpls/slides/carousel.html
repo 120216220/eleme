@@ -1,0 +1,6 @@
+<div class="carousel-wrapper">
+	<ul class="carousel-list" ng-transclude></ul>
+	<ol class="carousel-pager">
+		<li class="page-number" ng-repeat="slide in slides" ng-class="{'active': slide.active}" ng-click="setActiveSlide($index)">{{$index + 1}}</li>
+	</ol>
+</div>

@@ -1,0 +1,53 @@
+//图标字体数组
+$iconArr: 	(icon-logo, \e60e)
+			(icon-gift, \e60c)
+			(icon-service, \e60f)
+			(icon-mobile, \e614)
+			(icon-profile, \e629)
+			(icon-order, \e616)
+			(icon-cart, \e610)
+			(icon-notice, \e615)
+			(icon-history, \e613)
+			(icon-QR-code, \e617)
+			(icon-top, \e618)
+			(icon-angle-double-right, \e64c)
+			(icon-search, \e628)
+			(icon-arrow-down, \e639)
+			(icon-arrow-up, \e63a)
+			(icon-arrow-right, \e638)
+			(icon-star, \e624)
+			(icon-wechat, \e654)
+			(icon-weibo, \e653)
+			(icon-renren, \e627)
+			(icon-android, \e652)
+			(icon-phone, \e64e)
+			(icon-visit-history, \e60d);
+
+// 创建图标字体函数
+@mixin icon($cls, $val){
+	.#{$cls}:before{
+		content: "\"" + $val + "\"";
+	}
+}
+
+[class*=" icon-"],
+[class^="icon-"]{
+	font-family:eleme;
+	speak:none;
+	font-style:normal;
+	font-weight:400;
+	-webkit-font-feature-settings:normal;
+	-moz-font-feature-settings:normal;
+	font-feature-settings:normal;
+	font-variant:normal;
+	text-transform:none;
+	line-height:1;
+	-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing:grayscale;
+}
+
+@each $icon in $iconArr{
+	$cls: nth($icon, 1);
+	$val: nth($icon, 2); 
+	@include icon($cls, $val);
+}
