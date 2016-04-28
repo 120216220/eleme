@@ -4,4 +4,4 @@
 #Installation
 
 >1.Install with http-server
-```npm install```
+    ```npm install```
